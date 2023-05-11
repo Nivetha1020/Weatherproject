@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: rgb(172, 201, 240);">
+    <table>
+        <tr>
+            <td>
+                <img src="https://img.freepik.com/free-vector/white-clouds-blue-flat-background-design_1017-25502.jpg?size=626&ext=jpg" alt="">
+                <style>
+                    img {
+            
+                        position: absolute;
+                        width: 100%;
+                        top: 0px;
+                        bottom: 0px;
+                        left: 0px;
+                        right: 0px;
+                    }
+                    body{
+                        top: 0%;
+                        bottom: 0%;
+                        left: 0%;
+                        right: 0%;
+                    }
+                    table{
+                        top: 0%;
+                        bottom: 0%;
+                        left: 0%;
+                        right: 0%;
+                        border-spacing: 0px;
+
+                    }
+                </style>
+            </td>
+      
+
+   
+   
+        <td>
+            <div>
+                <h1 style="text-align: center;"><em>Weather Report🌦</em></h1>
+                <h2 style="text-align: center;"><em>Enter the name of your city to know its weather</em></h2>
+                <form action="/" method="post" id="form" style="text-align: center;">
+                    <label for="cityInput" style="text-align: center;"><em> <b>City Name: </b></em></label>
+                    <input type="text" name="cityName" id="cityInput" style="text-align: center;">
+                    <button type="submit" style="text-align: center;"><em><b>Go</b></em></button>
+                </form>
+            </div>
+            <style>
+                div{
+                    z-index: 1;
+                    padding-top: 450px;
+                    padding-left: 430px;
+                    padding-right: 430px;
+                    
+                    position: absolute;
+                    text-align: center;
+                    color: white;
+                
+                }
+                h1{
+                    font-family: 'Rampart One', cursive;
+                    font-size: 3rem;
+                }
+
+            </style>
+        </td>
+    </tr>
+   
+</table>
+<script src="app.js"></script>
+   
+</body>
+</html>
